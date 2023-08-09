@@ -1,0 +1,127 @@
+.containerStyle{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 7px #bbb;
+    padding: 20px 10px;
+}
+.addTitle{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 21px 50px;
+}
+.buttonStyle{
+  width: 100%;
+  max-width: 170px;
+  color: white;
+  /* background: black; */
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgb(243, 165, 11); 
+  background: linear-gradient(#b40,orange);
+}
+.buttonStyle1{
+    width: 100%;
+    max-width: 170px;
+    color: white;
+    /* background: black; */
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    background: linear-gradient(#740,gold);
+  }
+  .buttonStyle2{
+    width: 100%;
+    max-width: 170px;
+    color: white;
+    /* background: black; */
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    background: linear-gradient(#258,#70daf4);
+  }
+  .buttonStyle3{
+    width: 100%;
+    max-width: 170px;
+    color: white;
+    /* background: black; */
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    background: linear-gradient(#073,rgb(0, 255, 106));
+  }
+  .inputStyle{
+    border: none;
+    padding: 5px;
+    outline: none;
+  }
+  .displayFlex{
+    display: flex;
+  }
+  .flexAuto{
+    flex: auto;
+  }
+  .paddingTop{
+    padding-top: 20px;
+    text-align: center;
+  }
+  .marginStyle{
+    margin-bottom: 10px;
+  }
+  .scheduler-border {
+    width: fit-content;
+    padding: 0 7px;
+    border-bottom: none;
+    font-size: 14px;
+    margin-bottom: -3px;
+    font-weight: 600;
+    color: black;
+  }
+fieldset {
+    padding: 0 10px !important;
+    border: 1px solid #606060 !important;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 200px;
+  
+    input,
+    select {
+      height: 25px;
+      margin-left: -12px;
+      border: 0;
+      width: 100%;
+    }
+  
+    input:focus-visible,
+    select:focus-visible {
+      outline: 0;
+    }
+  
+  }
+
+  .biomassContainer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 7px #bbb;
+    padding: 20px 10px;
+    width: 70%;
+}
+  .biomassDiv{
+    width: 70%;
+  }
