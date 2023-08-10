@@ -7,11 +7,38 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.maincontainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-image: url("../images/loginbackground.jpg");
+  background-size: cover;
+}
+.upwelltitle{
+  width: 100%;
+  height: 70px;
+  margin-top: 5px;
+  background-color: white;
+  color: #000;
+  z-index: 9999;
+}
+.logoStyling{
+  width: 220px;
+  height: 60px;
+  padding-left: 50px;
+}
 .boxShadow{
     box-shadow: 2px 2px 7px #bbb;
     padding: 20px;
     width: 50%;
     text-align: center;
+    border-radius: 10px;
+    background-color: white;
 }
 .loginbuttonStyle{
   width: 100%;

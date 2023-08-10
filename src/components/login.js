@@ -4,8 +4,13 @@ import './login.css';
 
 
 const Login = () => {
+    const styles = {
+        backgroundColor: 'lightblue', // Change to your desired color
+      };
     return(
-        <div >
+        <div>        
+        <div className="maincontainer">
+        <div className="upwelltitle"><img src="./upwelllogo.png" alt="upwell" className="logoStyling" /> </div>
             <div className="container">
             <div className="boxShadow">
             <Link to={'/add'}>                
@@ -20,6 +25,7 @@ const Login = () => {
             <button className="loginbuttonStyle">LOGOUT</button>
             </div>
             </div>
+        </div>
         </div>
     );
     

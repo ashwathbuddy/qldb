@@ -1,3 +1,15 @@
+.maincontainernew{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-image: url("../images/newbatchbgimg.jpg");
+  background-size: cover;
+}
 .containerStyle{
     display: flex;
     justify-content: center;
@@ -6,12 +18,17 @@
     left: 50%;
     transform: translate(-50%,-50%);
     box-shadow: 2px 2px 7px #bbb;
-    padding: 20px 10px;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 10px;
 }
 .addTitle{
     font-size: 30px;
     font-weight: 600;
-    padding: 21px 50px;
+    /* padding: 21px 50px; */
+    text-align: center;
+    padding: 21px 150px 21px 0px;
+    flex: auto;
 }
 .buttonStyle{
   width: 100%;
@@ -110,9 +127,21 @@ fieldset {
     }
   
   }
+  .maincontainerbiomass{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url("../images/biomassbgimg.jpg");
+    background-size: cover;
+  }
 
   .biomassContainer{
-    display: flex;
+    display: block;
     justify-content: center;
     position: absolute;
     top: 50%;
@@ -120,8 +149,48 @@ fieldset {
     transform: translate(-50%,-50%);
     box-shadow: 2px 2px 7px #bbb;
     padding: 20px 10px;
-    width: 70%;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
 }
   .biomassDiv{
-    width: 70%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .homeButton{
+    font-size: 24px;
+    padding-right: 40px;
+  }
+  .file-input-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .custom-file-label {
+    display: block;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .pad-left{
+    padding-left: 35px;
+  }
+  .pad-left1{
+    padding-left: 50px;
+  }
+  .dropdownStyle{
+    border: none;
+    padding: 5px;
+    outline: none;
+  }
+  .batchNoStyling{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    padding-bottom: 10px;
   }

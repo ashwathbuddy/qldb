@@ -63,7 +63,9 @@ function AddBatch() {
   // };
     return (
       <div>
-        <div className="addTitle">New Batch Details</div>
+        <div className="maincontainernew">
+        <div className="upwelltitle" style={{display:'flex'}}><img src="./upwelllogo.png" alt="upwell" className="logoStyling" /> <span className="addTitle">New Batch Details</span></div>
+        
             <div className="containerStyle">
               <div>
               {/* <form onSubmit={handleSubmit}> */}
@@ -117,6 +119,7 @@ function AddBatch() {
               </div>
               {/* </form> */}
               </div>
+            </div>
             </div>
       </div>
     );
